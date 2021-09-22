@@ -2,6 +2,8 @@
 
 This is a companion tool to [rwrt](https://github.com/vvect/rwrt) used to generate hooks for Android applications.
 
+For a quick overview of the project, see the blog post on [vvect.xyz](https://vvect.xyz/posts/rwrt/)
+
 ## Getting Started
 
 Personally, I build the binary and assign an alias in my zshrc, but feel free to use whatever works for you.
