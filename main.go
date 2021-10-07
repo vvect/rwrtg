@@ -27,10 +27,8 @@ func escapeJS(js string) string{
 }
 
 func main() {
-	cwd, err := os.Getwd()
-	if err != nil {
-		panic(err)
-	}
+	pathSlice := strings.Split(os.Args[0], "/")
+	cwd := strings.Join(pathSlice[:len(pathSlice)-1], "/")
 
 
 	var templateFile string
